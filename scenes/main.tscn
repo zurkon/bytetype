@@ -1,0 +1,80 @@
+[gd_scene load_steps=10 format=3 uid="uid://bhebq7yg31k1n"]
+
+[ext_resource type="Script" uid="uid://bqwwkrhasmu0o" path="res://scripts/main.gd" id="1_jyhfs"]
+[ext_resource type="PackedScene" uid="uid://cjlgbd1rxspif" path="res://scenes/player.tscn" id="1_o5qli"]
+[ext_resource type="Shader" uid="uid://bm6eudehfqaa5" path="res://shaders/grid.gdshader" id="2_tefeu"]
+[ext_resource type="PackedScene" uid="uid://hd2x4mx75deu" path="res://scenes/spawner.tscn" id="3_sugp2"]
+[ext_resource type="Script" uid="uid://c48ix2r60x8qa" path="res://scripts/camera.gd" id="4_jyhfs"]
+[ext_resource type="Shader" uid="uid://bhgchknt0o7vj" path="res://shaders/crt.gdshader" id="5_tbgi4"]
+[ext_resource type="PackedScene" uid="uid://41ft82o1ixi2" path="res://scenes/keyboard.tscn" id="6_o6xl0"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_o6xl0"]
+shader = ExtResource("2_tefeu")
+shader_parameter/resolution = Vector2(540, 960)
+shader_parameter/bg_color = Color(0.04, 0.09, 0.16, 1)
+shader_parameter/line_color = Color(0.2, 0.3, 0.5, 1)
+shader_parameter/scroll_speed = 2.0000000298024
+shader_parameter/zoom = 20.0
+shader_parameter/thickness = 2.0
+shader_parameter/brightness = 2.0000000298024
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_tefeu"]
+shader = ExtResource("5_tbgi4")
+shader_parameter/resolution = Vector2(480, 270)
+shader_parameter/scan_line_amount = 1.0
+shader_parameter/warp_amount = 0.1
+shader_parameter/noise_amount = 0.06000000285
+shader_parameter/interference_amount = 0.400000019
+shader_parameter/grille_amount = 0.2000000095
+shader_parameter/grille_size = 2.0000000475
+shader_parameter/vignette_amount = 0.800000038
+shader_parameter/vignette_intensity = 0.400000019
+shader_parameter/aberation_amount = 0.5
+shader_parameter/roll_line_amount = 0.3
+shader_parameter/roll_speed = 1.0
+shader_parameter/scan_line_strength = -12.0
+shader_parameter/pixel_strength = -2.0
+
+[node name="GameController" type="Node" node_paths=PackedStringArray("player")]
+script = ExtResource("1_jyhfs")
+player = NodePath("Gameplay/Player")
+
+[node name="Background" type="CanvasLayer" parent="."]
+layer = -1
+
+[node name="Grid" type="ColorRect" parent="Background"]
+material = SubResource("ShaderMaterial_o6xl0")
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.15487596, 0.154876, 0.15487596, 1)
+
+[node name="Gameplay" type="Node2D" parent="."]
+
+[node name="Player" parent="Gameplay" instance=ExtResource("1_o5qli")]
+position = Vector2(90, 220)
+rotation = -1.5707964
+motion_mode = 1
+
+[node name="EnemySpawner" parent="Gameplay" node_paths=PackedStringArray("player") instance=ExtResource("3_sugp2")]
+player = NodePath("../Player")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(90, 160)
+script = ExtResource("4_jyhfs")
+
+[node name="Keyboard" parent="." instance=ExtResource("6_o6xl0")]
+
+[node name="PostProcessing" type="CanvasLayer" parent="."]
+layer = 2
+
+[node name="ColorRect" type="ColorRect" parent="PostProcessing"]
+material = SubResource("ShaderMaterial_tefeu")
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2

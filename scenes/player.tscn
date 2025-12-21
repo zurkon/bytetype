@@ -1,0 +1,53 @@
+[gd_scene load_steps=6 format=3 uid="uid://cjlgbd1rxspif"]
+
+[ext_resource type="Texture2D" uid="uid://c0ac263h27c5v" path="res://assets/The1BitSpacePack_v1.0_mono_transparent.png" id="1_3vyb7"]
+[ext_resource type="Script" uid="uid://b46olfvs1t1ps" path="res://scripts/player.gd" id="1_g2els"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_g2els"]
+size = Vector2(4, 4)
+
+[sub_resource type="Gradient" id="Gradient_g2els"]
+offsets = PackedFloat32Array(0, 0.369863, 1)
+colors = PackedColorArray(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_qhqgy"]
+size = Vector2(10, 12)
+
+[node name="Player" type="CharacterBody2D"]
+collision_mask = 0
+script = ExtResource("1_g2els")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+rotation = 1.5707964
+texture = ExtResource("1_3vyb7")
+hframes = 17
+vframes = 8
+frame = 3
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 0.5)
+shape = SubResource("RectangleShape2D_g2els")
+
+[node name="CPUParticles2D" type="CPUParticles2D" parent="."]
+emitting = false
+amount = 20
+lifetime = 0.4
+one_shot = true
+explosiveness = 1.0
+emission_shape = 1
+emission_sphere_radius = 8.0
+direction = Vector2(1, 1)
+spread = 180.0
+gravity = Vector2(0, 0)
+initial_velocity_min = 80.0
+initial_velocity_max = 100.0
+damping_min = 40.0
+damping_max = 300.0
+scale_amount_max = 2.0
+color_ramp = SubResource("Gradient_g2els")
+
+[node name="HurtBox" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="HurtBox"]
+position = Vector2(0, 0.5)
+shape = SubResource("RectangleShape2D_qhqgy")
