@@ -3,10 +3,10 @@ A Space Shooter game for Typing Practices built with [`Godot`](https://godotengi
 
 ## Description
 
-This project was inspired by the typing game [`ZType`](https://zty.pe/).
+This project was inspired by the typing game [`ZType`](https://zty.pe/).<br>
 Visual inspiration from [`BYTEPATH`](https://github.com/a327ex/BYTEPATH).
 
-It was a good oportunity to practice shaders and deploying games for Web.
+It was a good oportunity to practice shaders and deploying games for Web.<br>
 Speaking of it, you can play it on your browser.
 
 [`https://zurkon.github.io/bytetype/`](https://zurkon.github.io/bytetype/)
