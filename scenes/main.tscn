@@ -54,7 +54,7 @@ color = Color(0.15487596, 0.154876, 0.15487596, 1)
 [node name="Gameplay" type="Node2D" parent="."]
 
 [node name="Player" parent="Gameplay" instance=ExtResource("1_o5qli")]
-position = Vector2(90, 220)
+position = Vector2(90, 200)
 rotation = -1.5707964
 motion_mode = 1
 

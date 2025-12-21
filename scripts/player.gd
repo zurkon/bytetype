@@ -15,6 +15,9 @@ signal destroyed
 func _ready() -> void:
 	hurtbox_component.body_entered.connect(_on_body_entered)
 
+## Fires a [Bullet] instance to target direction. [br]
+## That instance holds the [code]current_index[/code] to be removed [br]
+## and [code]target_word[/code] for collision checking.
 func fire(target: Enemy, index: int, word: String) -> void:
 	# You should not fire when not running
 	if not running:
@@ -26,6 +29,7 @@ func fire(target: Enemy, index: int, word: String) -> void:
 	get_parent().add_child(bullet_instance)
 	bullet_instance.look_at(target.global_position)
 
+## Rotates player to target direction.
 func aim(target: Vector2) -> void:
 	var target_rotation = global_position.angle_to_point(target)
 	tween = create_tween()
@@ -42,7 +46,6 @@ func destroy() -> void:
 	# Start particles
 	particles.restart()
 	particles.emitting = true
-
 
 func _on_body_entered(body: Node2D):
 	if body is Enemy:

@@ -23,6 +23,9 @@ func _physics_process(delta: float) -> void:
 		# Resets camera offset
 		offset = lerp(offset, Vector2.ZERO, 10.5 * delta)
 
+## Starts screen shake effect. [br]
+## [param intensity]: Intensity of the shake effect. [br]
+## [param duration]: Screen shake duration in seconds.
 func screen_shake(intensity: float = 6.0, duration: float = 0.5) -> void:
 	noise.frequency = 2.0
 	

@@ -3,7 +3,7 @@
 [ext_resource type="Script" uid="uid://b30q4eevnq13f" path="res://scripts/key.gd" id="1_yk2u2"]
 
 [node name="Key" type="TextureButton"]
-custom_minimum_size = Vector2(18, 22)
+custom_minimum_size = Vector2(18, 27)
 stretch_mode = 0
 script = ExtResource("1_yk2u2")
 code = 65

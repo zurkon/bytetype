@@ -53,6 +53,7 @@ func _unhandled_key_input(event: InputEvent) -> void:
 		current_index += 1
 		player.fire(current_enemy, current_index, current_word)
 
+## Resets target variables
 func reset_aim() -> void:
 	current_index = 0
 	current_enemy = null

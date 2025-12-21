@@ -5,6 +5,7 @@ extends TextureButton
 func _ready() -> void:
 	pressed.connect(_emit_keyinput)
 
+# Simulates a Pressed Key Event
 func _emit_keyinput() -> void:
 	var event = InputEventKey.new()
 	event.keycode = code
