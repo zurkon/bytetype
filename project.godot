@@ -19,10 +19,9 @@ config/icon="res://icon.svg"
 
 window/size/viewport_width=180
 window/size/viewport_height=320
-window/size/window_width_override=765
-window/size/window_height_override=1360
+window/size/window_width_override=720
+window/size/window_height_override=1280
 window/stretch/mode="canvas_items"
-window/stretch/scale_mode="integer"
 window/handheld/orientation=1
 
 [rendering]

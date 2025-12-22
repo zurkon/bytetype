@@ -68,7 +68,7 @@ grow_vertical = 0
 [node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
 custom_minimum_size = Vector2(0, 90)
 layout_mode = 2
-theme_override_constants/separation = 4
+theme_override_constants/separation = 2
 alignment = 1
 
 [node name="Line1" type="HBoxContainer" parent="MarginContainer/VBoxContainer"]
@@ -152,62 +152,62 @@ theme_override_constants/separation = 0
 alignment = 1
 
 [node name="A" parent="MarginContainer/VBoxContainer/Line2" instance=ExtResource("1_attx4")]
-custom_minimum_size = Vector2(20, 30)
+custom_minimum_size = Vector2(18, 30)
 layout_mode = 2
 texture_normal = ExtResource("23_yuqlv")
 texture_pressed = ExtResource("24_hnsch")
 
 [node name="S" parent="MarginContainer/VBoxContainer/Line2" instance=ExtResource("1_attx4")]
-custom_minimum_size = Vector2(20, 30)
+custom_minimum_size = Vector2(18, 30)
 layout_mode = 2
 texture_normal = ExtResource("25_tr43p")
 texture_pressed = ExtResource("26_e7d1b")
 code = 83
 
 [node name="D" parent="MarginContainer/VBoxContainer/Line2" instance=ExtResource("1_attx4")]
-custom_minimum_size = Vector2(20, 30)
+custom_minimum_size = Vector2(18, 30)
 layout_mode = 2
 texture_normal = ExtResource("27_ex5g7")
 texture_pressed = ExtResource("28_ynx36")
 code = 68
 
 [node name="F" parent="MarginContainer/VBoxContainer/Line2" instance=ExtResource("1_attx4")]
-custom_minimum_size = Vector2(20, 30)
+custom_minimum_size = Vector2(18, 30)
 layout_mode = 2
 texture_normal = ExtResource("29_d2ki1")
 texture_pressed = ExtResource("30_26bn8")
 code = 70
 
 [node name="G" parent="MarginContainer/VBoxContainer/Line2" instance=ExtResource("1_attx4")]
-custom_minimum_size = Vector2(20, 30)
+custom_minimum_size = Vector2(18, 30)
 layout_mode = 2
 texture_normal = ExtResource("31_vf7pl")
 texture_pressed = ExtResource("32_grqji")
 code = 71
 
 [node name="H" parent="MarginContainer/VBoxContainer/Line2" instance=ExtResource("1_attx4")]
-custom_minimum_size = Vector2(20, 30)
+custom_minimum_size = Vector2(18, 30)
 layout_mode = 2
 texture_normal = ExtResource("33_8h0ke")
 texture_pressed = ExtResource("34_4f52l")
 code = 72
 
 [node name="J" parent="MarginContainer/VBoxContainer/Line2" instance=ExtResource("1_attx4")]
-custom_minimum_size = Vector2(20, 30)
+custom_minimum_size = Vector2(18, 30)
 layout_mode = 2
 texture_normal = ExtResource("35_2xurf")
 texture_pressed = ExtResource("36_mf5k6")
 code = 74
 
 [node name="K" parent="MarginContainer/VBoxContainer/Line2" instance=ExtResource("1_attx4")]
-custom_minimum_size = Vector2(20, 30)
+custom_minimum_size = Vector2(18, 30)
 layout_mode = 2
 texture_normal = ExtResource("37_v0olh")
 texture_pressed = ExtResource("38_jf011")
 code = 75
 
 [node name="L" parent="MarginContainer/VBoxContainer/Line2" instance=ExtResource("1_attx4")]
-custom_minimum_size = Vector2(20, 30)
+custom_minimum_size = Vector2(18, 30)
 layout_mode = 2
 texture_normal = ExtResource("39_skbj0")
 texture_pressed = ExtResource("40_rsset")
@@ -215,53 +215,53 @@ code = 76
 
 [node name="Line3" type="HBoxContainer" parent="MarginContainer/VBoxContainer"]
 layout_mode = 2
-theme_override_constants/separation = 2
+theme_override_constants/separation = 0
 alignment = 1
 
 [node name="Z" parent="MarginContainer/VBoxContainer/Line3" instance=ExtResource("1_attx4")]
-custom_minimum_size = Vector2(20, 30)
+custom_minimum_size = Vector2(18, 30)
 layout_mode = 2
 texture_normal = ExtResource("41_f015n")
 texture_pressed = ExtResource("42_yeb0b")
 code = 90
 
 [node name="X" parent="MarginContainer/VBoxContainer/Line3" instance=ExtResource("1_attx4")]
-custom_minimum_size = Vector2(20, 30)
+custom_minimum_size = Vector2(18, 30)
 layout_mode = 2
 texture_normal = ExtResource("43_vl106")
 texture_pressed = ExtResource("44_6ba13")
 code = 88
 
 [node name="C" parent="MarginContainer/VBoxContainer/Line3" instance=ExtResource("1_attx4")]
-custom_minimum_size = Vector2(20, 30)
+custom_minimum_size = Vector2(18, 30)
 layout_mode = 2
 texture_normal = ExtResource("45_p7v7m")
 texture_pressed = ExtResource("46_iow1p")
 code = 67
 
 [node name="V" parent="MarginContainer/VBoxContainer/Line3" instance=ExtResource("1_attx4")]
-custom_minimum_size = Vector2(20, 30)
+custom_minimum_size = Vector2(18, 30)
 layout_mode = 2
 texture_normal = ExtResource("47_arrrv")
 texture_pressed = ExtResource("48_pjl03")
 code = 86
 
 [node name="B" parent="MarginContainer/VBoxContainer/Line3" instance=ExtResource("1_attx4")]
-custom_minimum_size = Vector2(20, 30)
+custom_minimum_size = Vector2(18, 30)
 layout_mode = 2
 texture_normal = ExtResource("49_g3vlx")
 texture_pressed = ExtResource("50_1q3tx")
 code = 66
 
 [node name="N" parent="MarginContainer/VBoxContainer/Line3" instance=ExtResource("1_attx4")]
-custom_minimum_size = Vector2(20, 30)
+custom_minimum_size = Vector2(18, 30)
 layout_mode = 2
 texture_normal = ExtResource("51_dlxf4")
 texture_pressed = ExtResource("52_io8vf")
 code = 78
 
 [node name="M" parent="MarginContainer/VBoxContainer/Line3" instance=ExtResource("1_attx4")]
-custom_minimum_size = Vector2(20, 30)
+custom_minimum_size = Vector2(18, 30)
 layout_mode = 2
 texture_normal = ExtResource("53_0doqr")
 texture_pressed = ExtResource("54_6tbqx")
