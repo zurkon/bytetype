@@ -1,4 +1,4 @@
-extends TextureButton
+extends TouchScreenButton
 
 @export var code := 0
 

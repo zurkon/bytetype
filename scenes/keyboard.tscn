@@ -1,268 +1,247 @@
-[gd_scene load_steps=54 format=3 uid="uid://41ft82o1ixi2"]
+[gd_scene load_steps=54 format=3 uid="uid://j7nvlw7c2cd3"]
 
-[ext_resource type="PackedScene" uid="uid://deqff80cjlns1" path="res://scenes/key.tscn" id="1_attx4"]
-[ext_resource type="Texture2D" uid="uid://c3ue8h3r23c8s" path="res://assets/keys/normal/tile_0085.png" id="2_a8m4y"]
-[ext_resource type="Texture2D" uid="uid://cuoq53hjue1b8" path="res://assets/keys/pressed/tile_0357.png" id="3_rk632"]
-[ext_resource type="Texture2D" uid="uid://bed6awyvf4y2i" path="res://assets/keys/normal/tile_0086.png" id="5_ryxjm"]
-[ext_resource type="Texture2D" uid="uid://dcq6ijuwcvj0n" path="res://assets/keys/pressed/tile_0358.png" id="6_bt7hq"]
-[ext_resource type="Texture2D" uid="uid://bhtc0avolqfym" path="res://assets/keys/normal/tile_0087.png" id="7_otrfl"]
-[ext_resource type="Texture2D" uid="uid://mlx3grwjj45y" path="res://assets/keys/pressed/tile_0359.png" id="8_b5l4y"]
-[ext_resource type="Texture2D" uid="uid://buihn5wb0f4me" path="res://assets/keys/normal/tile_0088.png" id="9_0sago"]
-[ext_resource type="Texture2D" uid="uid://gmffy75jmty3" path="res://assets/keys/pressed/tile_0360.png" id="10_45u48"]
-[ext_resource type="Texture2D" uid="uid://c4e3f7yhc6j7m" path="res://assets/keys/normal/tile_0089.png" id="11_icx21"]
-[ext_resource type="Texture2D" uid="uid://kgl5ymh15qw2" path="res://assets/keys/pressed/tile_0361.png" id="12_goabc"]
-[ext_resource type="Texture2D" uid="uid://bf4hwq4q1fkyc" path="res://assets/keys/normal/tile_0090.png" id="13_yuqlv"]
-[ext_resource type="Texture2D" uid="uid://bsjyuc1hh5mmw" path="res://assets/keys/pressed/tile_0362.png" id="14_hnsch"]
-[ext_resource type="Texture2D" uid="uid://dhitrlctywrkg" path="res://assets/keys/normal/tile_0091.png" id="15_tr43p"]
-[ext_resource type="Texture2D" uid="uid://yf4dd4kkp36d" path="res://assets/keys/pressed/tile_0363.png" id="16_e7d1b"]
-[ext_resource type="Texture2D" uid="uid://uwdlybc6njsv" path="res://assets/keys/normal/tile_0092.png" id="17_ex5g7"]
-[ext_resource type="Texture2D" uid="uid://ttx52dchk73l" path="res://assets/keys/pressed/tile_0364.png" id="18_ynx36"]
-[ext_resource type="Texture2D" uid="uid://c2f8jod86rj7c" path="res://assets/keys/normal/tile_0093.png" id="19_d2ki1"]
-[ext_resource type="Texture2D" uid="uid://n7kyfrqcpyx2" path="res://assets/keys/pressed/tile_0365.png" id="20_26bn8"]
-[ext_resource type="Texture2D" uid="uid://bc1tabnny6ctl" path="res://assets/keys/normal/tile_0094.png" id="21_2tfhn"]
-[ext_resource type="Texture2D" uid="uid://d0y0rysievodb" path="res://assets/keys/pressed/tile_0366.png" id="22_jl6uo"]
-[ext_resource type="Texture2D" uid="uid://02xykfch0pdn" path="res://assets/keys/normal/tile_0120.png" id="23_yuqlv"]
-[ext_resource type="Texture2D" uid="uid://cqgrtmdpnxa65" path="res://assets/keys/pressed/tile_0392.png" id="24_hnsch"]
-[ext_resource type="Texture2D" uid="uid://bj2j1564v0a15" path="res://assets/keys/normal/tile_0121.png" id="25_tr43p"]
-[ext_resource type="Texture2D" uid="uid://dbhy3ycpja4x7" path="res://assets/keys/pressed/tile_0393.png" id="26_e7d1b"]
-[ext_resource type="Texture2D" uid="uid://c3x7c6cvf4fsf" path="res://assets/keys/normal/tile_0122.png" id="27_ex5g7"]
-[ext_resource type="Texture2D" uid="uid://cxqh3vbevqxgn" path="res://assets/keys/pressed/tile_0394.png" id="28_ynx36"]
-[ext_resource type="Texture2D" uid="uid://cwreqm8j45anb" path="res://assets/keys/normal/tile_0123.png" id="29_d2ki1"]
-[ext_resource type="Texture2D" uid="uid://bdly13d8624sb" path="res://assets/keys/pressed/tile_0395.png" id="30_26bn8"]
-[ext_resource type="Texture2D" uid="uid://cxx15tfje3s5l" path="res://assets/keys/normal/tile_0124.png" id="31_vf7pl"]
-[ext_resource type="Texture2D" uid="uid://dib73quo7qw43" path="res://assets/keys/pressed/tile_0396.png" id="32_grqji"]
-[ext_resource type="Texture2D" uid="uid://r1445o8bs3pm" path="res://assets/keys/normal/tile_0125.png" id="33_8h0ke"]
-[ext_resource type="Texture2D" uid="uid://bm2nryu6x7g7x" path="res://assets/keys/pressed/tile_0397.png" id="34_4f52l"]
-[ext_resource type="Texture2D" uid="uid://bclrctu0sp82m" path="res://assets/keys/normal/tile_0126.png" id="35_2xurf"]
-[ext_resource type="Texture2D" uid="uid://rgmnuqcrqj3i" path="res://assets/keys/pressed/tile_0398.png" id="36_mf5k6"]
-[ext_resource type="Texture2D" uid="uid://nkodbguaq68k" path="res://assets/keys/normal/tile_0127.png" id="37_v0olh"]
-[ext_resource type="Texture2D" uid="uid://b5qs7cvpxlf3v" path="res://assets/keys/pressed/tile_0399.png" id="38_jf011"]
-[ext_resource type="Texture2D" uid="uid://v5jfkn7xgat4" path="res://assets/keys/normal/tile_0128.png" id="39_skbj0"]
-[ext_resource type="Texture2D" uid="uid://douwj18rbll7d" path="res://assets/keys/pressed/tile_0400.png" id="40_rsset"]
-[ext_resource type="Texture2D" uid="uid://cyqna34yhbsyv" path="res://assets/keys/normal/tile_0155.png" id="41_f015n"]
-[ext_resource type="Texture2D" uid="uid://cwd4b7m11rhpy" path="res://assets/keys/pressed/tile_0427.png" id="42_yeb0b"]
-[ext_resource type="Texture2D" uid="uid://fc14vb5opi03" path="res://assets/keys/normal/tile_0156.png" id="43_vl106"]
-[ext_resource type="Texture2D" uid="uid://w5ve6vldao3g" path="res://assets/keys/pressed/tile_0428.png" id="44_6ba13"]
-[ext_resource type="Texture2D" uid="uid://bkglyqned65sd" path="res://assets/keys/normal/tile_0157.png" id="45_p7v7m"]
-[ext_resource type="Texture2D" uid="uid://dqbl23iq3iany" path="res://assets/keys/pressed/tile_0429.png" id="46_iow1p"]
-[ext_resource type="Texture2D" uid="uid://c21ksgyyyuhpx" path="res://assets/keys/normal/tile_0158.png" id="47_arrrv"]
-[ext_resource type="Texture2D" uid="uid://bl1y2vn14ksvb" path="res://assets/keys/pressed/tile_0430.png" id="48_pjl03"]
-[ext_resource type="Texture2D" uid="uid://cp75fgtcp18x6" path="res://assets/keys/normal/tile_0159.png" id="49_g3vlx"]
-[ext_resource type="Texture2D" uid="uid://duucpu721d5gl" path="res://assets/keys/pressed/tile_0431.png" id="50_1q3tx"]
-[ext_resource type="Texture2D" uid="uid://defl1wklp5li7" path="res://assets/keys/normal/tile_0160.png" id="51_dlxf4"]
-[ext_resource type="Texture2D" uid="uid://f4ej2x8fsybu" path="res://assets/keys/pressed/tile_0432.png" id="52_io8vf"]
-[ext_resource type="Texture2D" uid="uid://8ftkssmacp85" path="res://assets/keys/normal/tile_0161.png" id="53_0doqr"]
-[ext_resource type="Texture2D" uid="uid://byabypc1vkutf" path="res://assets/keys/pressed/tile_0433.png" id="54_6tbqx"]
+[ext_resource type="PackedScene" uid="uid://b2jqexy73t3j6" path="res://scenes/key.tscn" id="1_rnrn8"]
+[ext_resource type="Texture2D" uid="uid://c3ue8h3r23c8s" path="res://assets/keys/normal/tile_0085.png" id="2_btebr"]
+[ext_resource type="Texture2D" uid="uid://cuoq53hjue1b8" path="res://assets/keys/pressed/tile_0357.png" id="3_r8pn6"]
+[ext_resource type="Texture2D" uid="uid://bed6awyvf4y2i" path="res://assets/keys/normal/tile_0086.png" id="4_ag0cy"]
+[ext_resource type="Texture2D" uid="uid://dcq6ijuwcvj0n" path="res://assets/keys/pressed/tile_0358.png" id="5_i6yqb"]
+[ext_resource type="Texture2D" uid="uid://bhtc0avolqfym" path="res://assets/keys/normal/tile_0087.png" id="6_fwc8j"]
+[ext_resource type="Texture2D" uid="uid://mlx3grwjj45y" path="res://assets/keys/pressed/tile_0359.png" id="7_gpyun"]
+[ext_resource type="Texture2D" uid="uid://buihn5wb0f4me" path="res://assets/keys/normal/tile_0088.png" id="8_haa0t"]
+[ext_resource type="Texture2D" uid="uid://gmffy75jmty3" path="res://assets/keys/pressed/tile_0360.png" id="9_mu5xr"]
+[ext_resource type="Texture2D" uid="uid://c4e3f7yhc6j7m" path="res://assets/keys/normal/tile_0089.png" id="10_kh63m"]
+[ext_resource type="Texture2D" uid="uid://kgl5ymh15qw2" path="res://assets/keys/pressed/tile_0361.png" id="11_1lbmi"]
+[ext_resource type="Texture2D" uid="uid://bf4hwq4q1fkyc" path="res://assets/keys/normal/tile_0090.png" id="12_talom"]
+[ext_resource type="Texture2D" uid="uid://bsjyuc1hh5mmw" path="res://assets/keys/pressed/tile_0362.png" id="13_l6d8b"]
+[ext_resource type="Texture2D" uid="uid://dhitrlctywrkg" path="res://assets/keys/normal/tile_0091.png" id="14_cyr1m"]
+[ext_resource type="Texture2D" uid="uid://yf4dd4kkp36d" path="res://assets/keys/pressed/tile_0363.png" id="15_lh6ht"]
+[ext_resource type="Texture2D" uid="uid://uwdlybc6njsv" path="res://assets/keys/normal/tile_0092.png" id="16_jo8dq"]
+[ext_resource type="Texture2D" uid="uid://ttx52dchk73l" path="res://assets/keys/pressed/tile_0364.png" id="17_q4fhc"]
+[ext_resource type="Texture2D" uid="uid://c2f8jod86rj7c" path="res://assets/keys/normal/tile_0093.png" id="18_in3lo"]
+[ext_resource type="Texture2D" uid="uid://n7kyfrqcpyx2" path="res://assets/keys/pressed/tile_0365.png" id="19_wvc6g"]
+[ext_resource type="Texture2D" uid="uid://bc1tabnny6ctl" path="res://assets/keys/normal/tile_0094.png" id="20_amn1j"]
+[ext_resource type="Texture2D" uid="uid://d0y0rysievodb" path="res://assets/keys/pressed/tile_0366.png" id="21_v0gjs"]
+[ext_resource type="Texture2D" uid="uid://02xykfch0pdn" path="res://assets/keys/normal/tile_0120.png" id="22_c7crp"]
+[ext_resource type="Texture2D" uid="uid://cqgrtmdpnxa65" path="res://assets/keys/pressed/tile_0392.png" id="23_7tm48"]
+[ext_resource type="Texture2D" uid="uid://bj2j1564v0a15" path="res://assets/keys/normal/tile_0121.png" id="24_uembt"]
+[ext_resource type="Texture2D" uid="uid://dbhy3ycpja4x7" path="res://assets/keys/pressed/tile_0393.png" id="25_6ohjm"]
+[ext_resource type="Texture2D" uid="uid://c3x7c6cvf4fsf" path="res://assets/keys/normal/tile_0122.png" id="26_mmtol"]
+[ext_resource type="Texture2D" uid="uid://cxqh3vbevqxgn" path="res://assets/keys/pressed/tile_0394.png" id="27_0vrmt"]
+[ext_resource type="Texture2D" uid="uid://cwreqm8j45anb" path="res://assets/keys/normal/tile_0123.png" id="28_kodpo"]
+[ext_resource type="Texture2D" uid="uid://bdly13d8624sb" path="res://assets/keys/pressed/tile_0395.png" id="29_m6n8x"]
+[ext_resource type="Texture2D" uid="uid://cxx15tfje3s5l" path="res://assets/keys/normal/tile_0124.png" id="30_pep18"]
+[ext_resource type="Texture2D" uid="uid://dib73quo7qw43" path="res://assets/keys/pressed/tile_0396.png" id="31_8iqj5"]
+[ext_resource type="Texture2D" uid="uid://r1445o8bs3pm" path="res://assets/keys/normal/tile_0125.png" id="32_g647l"]
+[ext_resource type="Texture2D" uid="uid://bm2nryu6x7g7x" path="res://assets/keys/pressed/tile_0397.png" id="33_2dpog"]
+[ext_resource type="Texture2D" uid="uid://bclrctu0sp82m" path="res://assets/keys/normal/tile_0126.png" id="34_g3eco"]
+[ext_resource type="Texture2D" uid="uid://rgmnuqcrqj3i" path="res://assets/keys/pressed/tile_0398.png" id="35_fudcb"]
+[ext_resource type="Texture2D" uid="uid://nkodbguaq68k" path="res://assets/keys/normal/tile_0127.png" id="36_wdgsd"]
+[ext_resource type="Texture2D" uid="uid://b5qs7cvpxlf3v" path="res://assets/keys/pressed/tile_0399.png" id="37_pei7y"]
+[ext_resource type="Texture2D" uid="uid://v5jfkn7xgat4" path="res://assets/keys/normal/tile_0128.png" id="38_rh3m0"]
+[ext_resource type="Texture2D" uid="uid://douwj18rbll7d" path="res://assets/keys/pressed/tile_0400.png" id="39_sirv0"]
+[ext_resource type="Texture2D" uid="uid://cyqna34yhbsyv" path="res://assets/keys/normal/tile_0155.png" id="40_qsw0a"]
+[ext_resource type="Texture2D" uid="uid://cwd4b7m11rhpy" path="res://assets/keys/pressed/tile_0427.png" id="41_wxxd4"]
+[ext_resource type="Texture2D" uid="uid://fc14vb5opi03" path="res://assets/keys/normal/tile_0156.png" id="42_rs5g3"]
+[ext_resource type="Texture2D" uid="uid://w5ve6vldao3g" path="res://assets/keys/pressed/tile_0428.png" id="43_4fs2b"]
+[ext_resource type="Texture2D" uid="uid://bkglyqned65sd" path="res://assets/keys/normal/tile_0157.png" id="44_6v85t"]
+[ext_resource type="Texture2D" uid="uid://dqbl23iq3iany" path="res://assets/keys/pressed/tile_0429.png" id="45_id7m2"]
+[ext_resource type="Texture2D" uid="uid://c21ksgyyyuhpx" path="res://assets/keys/normal/tile_0158.png" id="46_8aesh"]
+[ext_resource type="Texture2D" uid="uid://bl1y2vn14ksvb" path="res://assets/keys/pressed/tile_0430.png" id="47_c3ojt"]
+[ext_resource type="Texture2D" uid="uid://cp75fgtcp18x6" path="res://assets/keys/normal/tile_0159.png" id="48_5hvc4"]
+[ext_resource type="Texture2D" uid="uid://duucpu721d5gl" path="res://assets/keys/pressed/tile_0431.png" id="49_0ia3g"]
+[ext_resource type="Texture2D" uid="uid://defl1wklp5li7" path="res://assets/keys/normal/tile_0160.png" id="50_51fy3"]
+[ext_resource type="Texture2D" uid="uid://f4ej2x8fsybu" path="res://assets/keys/pressed/tile_0432.png" id="51_xlmjq"]
+[ext_resource type="Texture2D" uid="uid://8ftkssmacp85" path="res://assets/keys/normal/tile_0161.png" id="52_1lvsl"]
+[ext_resource type="Texture2D" uid="uid://byabypc1vkutf" path="res://assets/keys/pressed/tile_0433.png" id="53_0pgfn"]
 
 [node name="Keyboard" type="CanvasLayer"]
 
-[node name="MarginContainer" type="MarginContainer" parent="."]
-anchors_preset = 12
-anchor_top = 1.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_top = -70.0
-grow_horizontal = 2
-grow_vertical = 0
+[node name="Line1" type="Node2D" parent="."]
+position = Vector2(0, 226)
 
-[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
-custom_minimum_size = Vector2(0, 90)
-layout_mode = 2
-theme_override_constants/separation = 2
-alignment = 1
-
-[node name="Line1" type="HBoxContainer" parent="MarginContainer/VBoxContainer"]
-layout_mode = 2
-theme_override_constants/separation = 0
-alignment = 1
-
-[node name="Q" parent="MarginContainer/VBoxContainer/Line1" instance=ExtResource("1_attx4")]
-custom_minimum_size = Vector2(18, 30)
-layout_mode = 2
-texture_normal = ExtResource("2_a8m4y")
-texture_pressed = ExtResource("3_rk632")
+[node name="Q" parent="Line1" instance=ExtResource("1_rnrn8")]
+scale = Vector2(1.125, 1.875)
+texture_normal = ExtResource("2_btebr")
+texture_pressed = ExtResource("3_r8pn6")
 code = 81
 
-[node name="W" parent="MarginContainer/VBoxContainer/Line1" instance=ExtResource("1_attx4")]
-custom_minimum_size = Vector2(18, 30)
-layout_mode = 2
-texture_normal = ExtResource("5_ryxjm")
-texture_pressed = ExtResource("6_bt7hq")
+[node name="W" parent="Line1" instance=ExtResource("1_rnrn8")]
+position = Vector2(18, 0)
+scale = Vector2(1.125, 1.875)
+texture_normal = ExtResource("4_ag0cy")
+texture_pressed = ExtResource("5_i6yqb")
 code = 87
 
-[node name="E" parent="MarginContainer/VBoxContainer/Line1" instance=ExtResource("1_attx4")]
-custom_minimum_size = Vector2(18, 30)
-layout_mode = 2
-texture_normal = ExtResource("7_otrfl")
-texture_pressed = ExtResource("8_b5l4y")
+[node name="E" parent="Line1" instance=ExtResource("1_rnrn8")]
+position = Vector2(36, 0)
+scale = Vector2(1.125, 1.875)
+texture_normal = ExtResource("6_fwc8j")
+texture_pressed = ExtResource("7_gpyun")
 code = 69
 
-[node name="R" parent="MarginContainer/VBoxContainer/Line1" instance=ExtResource("1_attx4")]
-custom_minimum_size = Vector2(18, 30)
-layout_mode = 2
-texture_normal = ExtResource("9_0sago")
-texture_pressed = ExtResource("10_45u48")
+[node name="R" parent="Line1" instance=ExtResource("1_rnrn8")]
+position = Vector2(54, 0)
+scale = Vector2(1.125, 1.875)
+texture_normal = ExtResource("8_haa0t")
+texture_pressed = ExtResource("9_mu5xr")
 code = 82
 
-[node name="T" parent="MarginContainer/VBoxContainer/Line1" instance=ExtResource("1_attx4")]
-custom_minimum_size = Vector2(18, 30)
-layout_mode = 2
-texture_normal = ExtResource("11_icx21")
-texture_pressed = ExtResource("12_goabc")
+[node name="T" parent="Line1" instance=ExtResource("1_rnrn8")]
+position = Vector2(72, 0)
+scale = Vector2(1.125, 1.875)
+texture_normal = ExtResource("10_kh63m")
+texture_pressed = ExtResource("11_1lbmi")
 code = 84
 
-[node name="Y" parent="MarginContainer/VBoxContainer/Line1" instance=ExtResource("1_attx4")]
-custom_minimum_size = Vector2(18, 30)
-layout_mode = 2
-texture_normal = ExtResource("13_yuqlv")
-texture_pressed = ExtResource("14_hnsch")
+[node name="Y" parent="Line1" instance=ExtResource("1_rnrn8")]
+position = Vector2(90, 0)
+scale = Vector2(1.125, 1.875)
+texture_normal = ExtResource("12_talom")
+texture_pressed = ExtResource("13_l6d8b")
 code = 89
 
-[node name="U" parent="MarginContainer/VBoxContainer/Line1" instance=ExtResource("1_attx4")]
-custom_minimum_size = Vector2(18, 30)
-layout_mode = 2
-texture_normal = ExtResource("15_tr43p")
-texture_pressed = ExtResource("16_e7d1b")
+[node name="U" parent="Line1" instance=ExtResource("1_rnrn8")]
+position = Vector2(108, 0)
+scale = Vector2(1.125, 1.875)
+texture_normal = ExtResource("14_cyr1m")
+texture_pressed = ExtResource("15_lh6ht")
 code = 85
 
-[node name="I" parent="MarginContainer/VBoxContainer/Line1" instance=ExtResource("1_attx4")]
-custom_minimum_size = Vector2(18, 30)
-layout_mode = 2
-texture_normal = ExtResource("17_ex5g7")
-texture_pressed = ExtResource("18_ynx36")
+[node name="I" parent="Line1" instance=ExtResource("1_rnrn8")]
+position = Vector2(126, 0)
+scale = Vector2(1.125, 1.875)
+texture_normal = ExtResource("16_jo8dq")
+texture_pressed = ExtResource("17_q4fhc")
 code = 73
 
-[node name="O" parent="MarginContainer/VBoxContainer/Line1" instance=ExtResource("1_attx4")]
-custom_minimum_size = Vector2(18, 30)
-layout_mode = 2
-texture_normal = ExtResource("19_d2ki1")
-texture_pressed = ExtResource("20_26bn8")
+[node name="O" parent="Line1" instance=ExtResource("1_rnrn8")]
+position = Vector2(144, 0)
+scale = Vector2(1.125, 1.875)
+texture_normal = ExtResource("18_in3lo")
+texture_pressed = ExtResource("19_wvc6g")
 code = 79
 
-[node name="P" parent="MarginContainer/VBoxContainer/Line1" instance=ExtResource("1_attx4")]
-custom_minimum_size = Vector2(18, 30)
-layout_mode = 2
-texture_normal = ExtResource("21_2tfhn")
-texture_pressed = ExtResource("22_jl6uo")
+[node name="P" parent="Line1" instance=ExtResource("1_rnrn8")]
+position = Vector2(162, 0)
+scale = Vector2(1.125, 1.875)
+texture_normal = ExtResource("20_amn1j")
+texture_pressed = ExtResource("21_v0gjs")
 code = 80
 
-[node name="Line2" type="HBoxContainer" parent="MarginContainer/VBoxContainer"]
-layout_mode = 2
-theme_override_constants/separation = 0
-alignment = 1
+[node name="Line2" type="Node2D" parent="."]
+position = Vector2(0, 256)
 
-[node name="A" parent="MarginContainer/VBoxContainer/Line2" instance=ExtResource("1_attx4")]
-custom_minimum_size = Vector2(18, 30)
-layout_mode = 2
-texture_normal = ExtResource("23_yuqlv")
-texture_pressed = ExtResource("24_hnsch")
+[node name="A" parent="Line2" instance=ExtResource("1_rnrn8")]
+position = Vector2(9, 0)
+scale = Vector2(1.125, 1.875)
+texture_normal = ExtResource("22_c7crp")
+texture_pressed = ExtResource("23_7tm48")
+code = 65
 
-[node name="S" parent="MarginContainer/VBoxContainer/Line2" instance=ExtResource("1_attx4")]
-custom_minimum_size = Vector2(18, 30)
-layout_mode = 2
-texture_normal = ExtResource("25_tr43p")
-texture_pressed = ExtResource("26_e7d1b")
+[node name="S" parent="Line2" instance=ExtResource("1_rnrn8")]
+position = Vector2(27, 0)
+scale = Vector2(1.125, 1.875)
+texture_normal = ExtResource("24_uembt")
+texture_pressed = ExtResource("25_6ohjm")
 code = 83
 
-[node name="D" parent="MarginContainer/VBoxContainer/Line2" instance=ExtResource("1_attx4")]
-custom_minimum_size = Vector2(18, 30)
-layout_mode = 2
-texture_normal = ExtResource("27_ex5g7")
-texture_pressed = ExtResource("28_ynx36")
+[node name="D" parent="Line2" instance=ExtResource("1_rnrn8")]
+position = Vector2(45, 0)
+scale = Vector2(1.125, 1.875)
+texture_normal = ExtResource("26_mmtol")
+texture_pressed = ExtResource("27_0vrmt")
 code = 68
 
-[node name="F" parent="MarginContainer/VBoxContainer/Line2" instance=ExtResource("1_attx4")]
-custom_minimum_size = Vector2(18, 30)
-layout_mode = 2
-texture_normal = ExtResource("29_d2ki1")
-texture_pressed = ExtResource("30_26bn8")
+[node name="F" parent="Line2" instance=ExtResource("1_rnrn8")]
+position = Vector2(63, 0)
+scale = Vector2(1.125, 1.875)
+texture_normal = ExtResource("28_kodpo")
+texture_pressed = ExtResource("29_m6n8x")
 code = 70
 
-[node name="G" parent="MarginContainer/VBoxContainer/Line2" instance=ExtResource("1_attx4")]
-custom_minimum_size = Vector2(18, 30)
-layout_mode = 2
-texture_normal = ExtResource("31_vf7pl")
-texture_pressed = ExtResource("32_grqji")
+[node name="G" parent="Line2" instance=ExtResource("1_rnrn8")]
+position = Vector2(81, 0)
+scale = Vector2(1.125, 1.875)
+texture_normal = ExtResource("30_pep18")
+texture_pressed = ExtResource("31_8iqj5")
 code = 71
 
-[node name="H" parent="MarginContainer/VBoxContainer/Line2" instance=ExtResource("1_attx4")]
-custom_minimum_size = Vector2(18, 30)
-layout_mode = 2
-texture_normal = ExtResource("33_8h0ke")
-texture_pressed = ExtResource("34_4f52l")
+[node name="H" parent="Line2" instance=ExtResource("1_rnrn8")]
+position = Vector2(99, 0)
+scale = Vector2(1.125, 1.875)
+texture_normal = ExtResource("32_g647l")
+texture_pressed = ExtResource("33_2dpog")
 code = 72
 
-[node name="J" parent="MarginContainer/VBoxContainer/Line2" instance=ExtResource("1_attx4")]
-custom_minimum_size = Vector2(18, 30)
-layout_mode = 2
-texture_normal = ExtResource("35_2xurf")
-texture_pressed = ExtResource("36_mf5k6")
+[node name="J" parent="Line2" instance=ExtResource("1_rnrn8")]
+position = Vector2(117, 0)
+scale = Vector2(1.125, 1.875)
+texture_normal = ExtResource("34_g3eco")
+texture_pressed = ExtResource("35_fudcb")
 code = 74
 
-[node name="K" parent="MarginContainer/VBoxContainer/Line2" instance=ExtResource("1_attx4")]
-custom_minimum_size = Vector2(18, 30)
-layout_mode = 2
-texture_normal = ExtResource("37_v0olh")
-texture_pressed = ExtResource("38_jf011")
+[node name="K" parent="Line2" instance=ExtResource("1_rnrn8")]
+position = Vector2(135, 0)
+scale = Vector2(1.125, 1.875)
+texture_normal = ExtResource("36_wdgsd")
+texture_pressed = ExtResource("37_pei7y")
 code = 75
 
-[node name="L" parent="MarginContainer/VBoxContainer/Line2" instance=ExtResource("1_attx4")]
-custom_minimum_size = Vector2(18, 30)
-layout_mode = 2
-texture_normal = ExtResource("39_skbj0")
-texture_pressed = ExtResource("40_rsset")
+[node name="L" parent="Line2" instance=ExtResource("1_rnrn8")]
+position = Vector2(153, 0)
+scale = Vector2(1.125, 1.875)
+texture_normal = ExtResource("38_rh3m0")
+texture_pressed = ExtResource("39_sirv0")
 code = 76
 
-[node name="Line3" type="HBoxContainer" parent="MarginContainer/VBoxContainer"]
-layout_mode = 2
-theme_override_constants/separation = 0
-alignment = 1
+[node name="Line3" type="Node2D" parent="."]
+position = Vector2(0, 286)
 
-[node name="Z" parent="MarginContainer/VBoxContainer/Line3" instance=ExtResource("1_attx4")]
-custom_minimum_size = Vector2(18, 30)
-layout_mode = 2
-texture_normal = ExtResource("41_f015n")
-texture_pressed = ExtResource("42_yeb0b")
+[node name="Z" parent="Line3" instance=ExtResource("1_rnrn8")]
+position = Vector2(27, 0)
+scale = Vector2(1.125, 1.875)
+texture_normal = ExtResource("40_qsw0a")
+texture_pressed = ExtResource("41_wxxd4")
 code = 90
 
-[node name="X" parent="MarginContainer/VBoxContainer/Line3" instance=ExtResource("1_attx4")]
-custom_minimum_size = Vector2(18, 30)
-layout_mode = 2
-texture_normal = ExtResource("43_vl106")
-texture_pressed = ExtResource("44_6ba13")
+[node name="X" parent="Line3" instance=ExtResource("1_rnrn8")]
+position = Vector2(45, 0)
+scale = Vector2(1.125, 1.875)
+texture_normal = ExtResource("42_rs5g3")
+texture_pressed = ExtResource("43_4fs2b")
 code = 88
 
-[node name="C" parent="MarginContainer/VBoxContainer/Line3" instance=ExtResource("1_attx4")]
-custom_minimum_size = Vector2(18, 30)
-layout_mode = 2
-texture_normal = ExtResource("45_p7v7m")
-texture_pressed = ExtResource("46_iow1p")
+[node name="C" parent="Line3" instance=ExtResource("1_rnrn8")]
+position = Vector2(63, 0)
+scale = Vector2(1.125, 1.875)
+texture_normal = ExtResource("44_6v85t")
+texture_pressed = ExtResource("45_id7m2")
 code = 67
 
-[node name="V" parent="MarginContainer/VBoxContainer/Line3" instance=ExtResource("1_attx4")]
-custom_minimum_size = Vector2(18, 30)
-layout_mode = 2
-texture_normal = ExtResource("47_arrrv")
-texture_pressed = ExtResource("48_pjl03")
+[node name="V" parent="Line3" instance=ExtResource("1_rnrn8")]
+position = Vector2(81, 0)
+scale = Vector2(1.125, 1.875)
+texture_normal = ExtResource("46_8aesh")
+texture_pressed = ExtResource("47_c3ojt")
 code = 86
 
-[node name="B" parent="MarginContainer/VBoxContainer/Line3" instance=ExtResource("1_attx4")]
-custom_minimum_size = Vector2(18, 30)
-layout_mode = 2
-texture_normal = ExtResource("49_g3vlx")
-texture_pressed = ExtResource("50_1q3tx")
+[node name="B" parent="Line3" instance=ExtResource("1_rnrn8")]
+position = Vector2(99, 0)
+scale = Vector2(1.125, 1.875)
+texture_normal = ExtResource("48_5hvc4")
+texture_pressed = ExtResource("49_0ia3g")
 code = 66
 
-[node name="N" parent="MarginContainer/VBoxContainer/Line3" instance=ExtResource("1_attx4")]
-custom_minimum_size = Vector2(18, 30)
-layout_mode = 2
-texture_normal = ExtResource("51_dlxf4")
-texture_pressed = ExtResource("52_io8vf")
+[node name="N" parent="Line3" instance=ExtResource("1_rnrn8")]
+position = Vector2(117, 0)
+scale = Vector2(1.125, 1.875)
+texture_normal = ExtResource("50_51fy3")
+texture_pressed = ExtResource("51_xlmjq")
 code = 78
 
-[node name="M" parent="MarginContainer/VBoxContainer/Line3" instance=ExtResource("1_attx4")]
-custom_minimum_size = Vector2(18, 30)
-layout_mode = 2
-texture_normal = ExtResource("53_0doqr")
-texture_pressed = ExtResource("54_6tbqx")
+[node name="M" parent="Line3" instance=ExtResource("1_rnrn8")]
+position = Vector2(135, 0)
+scale = Vector2(1.125, 1.875)
+texture_normal = ExtResource("52_1lvsl")
+texture_pressed = ExtResource("53_0pgfn")
 code = 77

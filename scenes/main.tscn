@@ -6,7 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://hd2x4mx75deu" path="res://scenes/spawner.tscn" id="3_sugp2"]
 [ext_resource type="Script" uid="uid://c48ix2r60x8qa" path="res://scripts/camera.gd" id="4_jyhfs"]
 [ext_resource type="Shader" uid="uid://bhgchknt0o7vj" path="res://shaders/crt.gdshader" id="5_tbgi4"]
-[ext_resource type="PackedScene" uid="uid://41ft82o1ixi2" path="res://scenes/keyboard.tscn" id="6_o6xl0"]
+[ext_resource type="PackedScene" uid="uid://j7nvlw7c2cd3" path="res://scenes/keyboard.tscn" id="7_tipki"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_o6xl0"]
 shader = ExtResource("2_tefeu")
@@ -65,7 +65,7 @@ player = NodePath("../Player")
 position = Vector2(90, 160)
 script = ExtResource("4_jyhfs")
 
-[node name="Keyboard" parent="." instance=ExtResource("6_o6xl0")]
+[node name="Keyboard" parent="." instance=ExtResource("7_tipki")]
 
 [node name="PostProcessing" type="CanvasLayer" parent="."]
 layer = 2
